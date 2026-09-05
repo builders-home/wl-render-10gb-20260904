@@ -61,7 +61,7 @@ env:
   # A `workflow_call` reusable workflow does not inherit the caller's `env:` block, so this
   # is duplicated from render-world.yml rather than shared - keep the two values equal, and
   # advance both in the same commit the same way render-world.yml's copy is advanced.
-  WORLDLENS_TOOLCHAIN_COMMIT: 9f52322cdfe284553499486bb1a8ffd2916331e3
+  WORLDLENS_TOOLCHAIN_COMMIT: a79d63bee62565cb15775f75b9912b36c76b01bf
 
 jobs:
   render:
